@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors = { 'hyugit' => '13056774+hyugit@users.noreply.github.com' }
   s.source = { :git => 'https://github.com/hyugit/UInt256.git', :tag => s.version }
   s.frameworks = 'Foundation'
-  s.swift_versions = '5.0.1'
+  s.swift_version = '5.0.1'
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
